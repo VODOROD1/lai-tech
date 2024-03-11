@@ -221,3 +221,1638 @@
 [NX Daemon Server] - 2024-03-11T02:41:30.304Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-03-11T02:41:48.189Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-03-11T02:41:48.189Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:10:52.581Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:10:52.598Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:10:52.598Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:10:52.599Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:10:52.600Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:10:52.600Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-03-11T03:10:52.601Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:10:52.601Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:10:52.604Z - [REQUEST]: Client Request for Project Graph Received
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:10:52.631Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:10:52.631Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:10:52.631Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:10:53.052Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:10:53.055Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:10:53.055Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:10:53.057Z - Time taken for 'total for creating and serializing project graph' 448.5490000024438ms
+[NX Daemon Server] - 2024-03-11T03:10:53.057Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:10:53.057Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 448. Response time: 5.
+[NX Daemon Server] - 2024-03-11T03:10:53.058Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:10:53.058Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:10:53.062Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:53.064Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:53.064Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:53.064Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:10:53.065Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:53.065Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:10:53.065Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:10:53.065Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:10:54.123Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:10:54.123Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:10:54.123Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:10:54.126Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:10:54.126Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:10:54.127Z - Time taken for 'total for creating and serializing project graph' 0.3070000037550926ms
+[NX Daemon Server] - 2024-03-11T03:10:54.128Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:10:54.128Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:10:54.132Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:54.133Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:10:54.133Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:10:54.133Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:11:32.207Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:11:32.208Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:11:32.208Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:11:32.209Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:11:32.210Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:11:32.211Z - Time taken for 'total for creating and serializing project graph' 0.18069999665021896ms
+[NX Daemon Server] - 2024-03-11T03:11:32.211Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:11:32.211Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:11:32.215Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:11:32.215Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:11:32.215Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:11:32.215Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:11:46.719Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:11:46.720Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:11:46.720Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:11:46.722Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:11:46.722Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:11:46.723Z - Time taken for 'total for creating and serializing project graph' 0.22739999741315842ms
+[NX Daemon Server] - 2024-03-11T03:11:46.724Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:11:46.724Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:11:46.731Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:11:46.731Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:11:46.731Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:11:46.731Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:38.484Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:39:38.485Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:39:38.485Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:38.485Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:38.485Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:39:39.834Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:39.838Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:39.839Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:39.840Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:39.840Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:39:39.840Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-03-11T03:39:39.841Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:39:39.841Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:39.843Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:39.847Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:39.847Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:39.847Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:39:40.180Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:40.183Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:40.183Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:40.185Z - Time taken for 'total for creating and serializing project graph' 336.6938999965787ms
+[NX Daemon Server] - 2024-03-11T03:39:40.192Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:39:40.192Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:40.192Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 337. Response time: 12.
+[NX Daemon Server] - 2024-03-11T03:39:40.193Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:40.193Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:39:40.195Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:40.198Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:40.199Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:39:40.926Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:40.928Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:40.933Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:40.933Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:40.933Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:40.935Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:40.936Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:40.936Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:40.936Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:41.038Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:41.040Z - Time taken for 'total for creating and serializing project graph' 103.48279999941587ms
+[NX Daemon Server] - 2024-03-11T03:39:41.040Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:41.040Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 103. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:39:41.044Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:41.044Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:41.044Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:39:41.044Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:41.257Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:39:41.257Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:39:41.258Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:41.258Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:41.258Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:39:42.606Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:42.609Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:42.619Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:42.620Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:42.620Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:42.621Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:42.621Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:39:42.621Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:42.623Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:42.624Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:42.624Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:42.624Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:39:42.911Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:42.914Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:42.914Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:42.915Z - Time taken for 'total for creating and serializing project graph' 288.19060000032187ms
+[NX Daemon Server] - 2024-03-11T03:39:42.921Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:39:42.921Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:42.921Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 288. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:39:42.921Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:42.922Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-03-11T03:39:42.923Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:42.924Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:42.924Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:42.924Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:42.924Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:42.924Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:42.925Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:42.925Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:42.925Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:42.925Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:39:44.278Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:44.282Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:44.287Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:44.287Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:44.287Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:44.289Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:44.290Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:44.290Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:44.290Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:44.393Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:44.394Z - Time taken for 'total for creating and serializing project graph' 103.83340000361204ms
+[NX Daemon Server] - 2024-03-11T03:39:44.394Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:44.394Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 104. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:44.399Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:44.399Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:44.399Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:39:44.400Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:45.463Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:45.463Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:45.463Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:45.464Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:45.464Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:45.465Z - Time taken for 'total for creating and serializing project graph' 0.14659999310970306ms
+[NX Daemon Server] - 2024-03-11T03:39:45.466Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:45.466Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:39:45.470Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:45.470Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:45.470Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:39:45.470Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:47.049Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:39:47.049Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:39:47.049Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:47.049Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:47.049Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:39:48.455Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:48.459Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:48.460Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:48.461Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:48.461Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:48.461Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:48.462Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:39:48.464Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:48.470Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:48.470Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:48.470Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:39:48.770Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:48.772Z - Time taken for 'total for creating and serializing project graph' 305.8082000017166ms
+[NX Daemon Server] - 2024-03-11T03:39:48.772Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:39:48.773Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:48.774Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:48.782Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:39:48.782Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:48.782Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 306. Response time: 12.
+[NX Daemon Server] - 2024-03-11T03:39:48.782Z - Time taken for 'total for creating and serializing project graph' 0.20480000227689743ms
+[NX Daemon Server] - 2024-03-11T03:39:48.784Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:48.784Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:48.784Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:39:48.786Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:39:48.787Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:39:50.119Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:39:50.122Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:39:50.125Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:50.125Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:50.125Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:50.127Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:50.128Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:39:50.128Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:50.128Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:39:50.227Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:50.228Z - Time taken for 'total for creating and serializing project graph' 99.80470000207424ms
+[NX Daemon Server] - 2024-03-11T03:39:50.228Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:50.228Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 100. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:50.232Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:50.233Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:50.233Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:50.233Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:51.295Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:51.295Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:39:51.295Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:39:51.296Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:39:51.297Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:39:51.298Z - Time taken for 'total for creating and serializing project graph' 0.17830000072717667ms
+[NX Daemon Server] - 2024-03-11T03:39:51.298Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:39:51.298Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:39:51.302Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:51.302Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:39:51.302Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:39:51.302Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:39.273Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:41:39.282Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:41:39.282Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:41:39.282Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:41:39.282Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:41:40.627Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:41:40.630Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:41:40.635Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:40.635Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:41:40.636Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:40.636Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:40.636Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:40.636Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:41:40.638Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:40.640Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:41:40.640Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:41:40.640Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:41:40.950Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:40.953Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:40.954Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:40.955Z - Time taken for 'total for creating and serializing project graph' 311.43510000407696ms
+[NX Daemon Server] - 2024-03-11T03:41:40.964Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:41:40.964Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:40.965Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 312. Response time: 15.
+[NX Daemon Server] - 2024-03-11T03:41:40.967Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:40.967Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:40.968Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 14.
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:40.970Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:41:40.971Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:41:42.383Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:41:42.386Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:41:42.394Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:42.394Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:42.395Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:42.396Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:42.397Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:41:42.397Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:41:42.397Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:41:42.495Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:42.496Z - Time taken for 'total for creating and serializing project graph' 98.88489999622107ms
+[NX Daemon Server] - 2024-03-11T03:41:42.497Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:42.497Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 99. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:41:42.502Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:42.502Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:42.502Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:42.502Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:43.558Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:43.558Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:43.558Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:43.560Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:43.560Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:43.561Z - Time taken for 'total for creating and serializing project graph' 0.1664000004529953ms
+[NX Daemon Server] - 2024-03-11T03:41:43.561Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:43.561Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:41:43.566Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:43.566Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:43.566Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:43.566Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:46.748Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:46.749Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:46.749Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:46.750Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:46.751Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:46.752Z - Time taken for 'total for creating and serializing project graph' 0.23589999973773956ms
+[NX Daemon Server] - 2024-03-11T03:41:46.752Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:46.752Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:41:46.756Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:46.756Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:46.756Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:46.756Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:51.880Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:51.880Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:51.881Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:51.882Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:51.882Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:51.884Z - Time taken for 'total for creating and serializing project graph' 0.14829999953508377ms
+[NX Daemon Server] - 2024-03-11T03:41:51.885Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:51.885Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:41:51.889Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:51.889Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:51.889Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:51.889Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:57.001Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:57.001Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:57.001Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:57.002Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:57.002Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:57.004Z - Time taken for 'total for creating and serializing project graph' 0.14670000225305557ms
+[NX Daemon Server] - 2024-03-11T03:41:57.004Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:57.004Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:41:57.008Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:57.008Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:57.008Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:57.008Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:59.089Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:59.089Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:41:59.089Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:41:59.091Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:41:59.091Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:41:59.092Z - Time taken for 'total for creating and serializing project graph' 0.18250000476837158ms
+[NX Daemon Server] - 2024-03-11T03:41:59.092Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:41:59.092Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:41:59.096Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:59.096Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:41:59.096Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:41:59.097Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:02.712Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:02.712Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:02.713Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:02.714Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:02.714Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:02.715Z - Time taken for 'total for creating and serializing project graph' 0.16949999332427979ms
+[NX Daemon Server] - 2024-03-11T03:42:02.715Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:02.716Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:02.720Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:02.720Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:02.720Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:02.720Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:07.273Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:07.273Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:07.273Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:07.274Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:07.275Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:07.276Z - Time taken for 'total for creating and serializing project graph' 0.20059999823570251ms
+[NX Daemon Server] - 2024-03-11T03:42:07.276Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:07.276Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:07.281Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:07.281Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:07.281Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:07.281Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:11.224Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:11.224Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:11.225Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:11.225Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:11.225Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:12.523Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:12.526Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:12.528Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:12.529Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:12.529Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:12.529Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:12.529Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:12.530Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:12.531Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:12.533Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:12.533Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:12.533Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:12.817Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:12.820Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:12.820Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:12.822Z - Time taken for 'total for creating and serializing project graph' 285.64090000092983ms
+[NX Daemon Server] - 2024-03-11T03:42:12.829Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:12.829Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:12.829Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 286. Response time: 12.
+[NX Daemon Server] - 2024-03-11T03:42:12.829Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:12.829Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 9.
+[NX Daemon Server] - 2024-03-11T03:42:12.831Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:12.833Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:12.834Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:12.834Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:14.285Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:14.288Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:14.291Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:14.293Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:14.293Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:14.293Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:14.294Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:14.294Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:14.297Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:14.298Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:14.298Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:14.298Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:14.567Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:14.570Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:14.570Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:14.571Z - Time taken for 'total for creating and serializing project graph' 270.499200001359ms
+[NX Daemon Server] - 2024-03-11T03:42:14.571Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:14.571Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 270. Response time: 4.
+[NX Daemon Server] - 2024-03-11T03:42:14.571Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:14.571Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:14.573Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:14.573Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:14.573Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:14.573Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:14.576Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:14.576Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:14.576Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:14.577Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:15.639Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:15.640Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:15.640Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:15.641Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:15.641Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:15.642Z - Time taken for 'total for creating and serializing project graph' 0.19599999487400055ms
+[NX Daemon Server] - 2024-03-11T03:42:15.643Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:15.643Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:15.647Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:15.647Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:15.647Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:15.648Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:16.906Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:16.907Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:16.907Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:16.907Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:16.907Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:18.239Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:18.242Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:18.245Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:18.246Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:18.246Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:18.246Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:18.247Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:18.247Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:18.250Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:18.251Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:18.251Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:18.251Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:18.531Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:18.534Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:18.534Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:18.535Z - Time taken for 'total for creating and serializing project graph' 281.29969999939203ms
+[NX Daemon Server] - 2024-03-11T03:42:18.541Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:18.541Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:18.541Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 282. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:42:18.541Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:18.541Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 7.
+[NX Daemon Server] - 2024-03-11T03:42:18.542Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:18.544Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:18.545Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:18.545Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:19.399Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:19.403Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:19.404Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:19.404Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:19.405Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:19.406Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:19.407Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:19.407Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:19.407Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:19.511Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:19.513Z - Time taken for 'total for creating and serializing project graph' 104.8800999969244ms
+[NX Daemon Server] - 2024-03-11T03:42:19.513Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:19.513Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 105. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:19.518Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:19.518Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:19.518Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:19.518Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:20.113Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:20.120Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:20.121Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:20.121Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:20.121Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:21.435Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:21.438Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:21.447Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:21.448Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:21.448Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:21.449Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:21.449Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:21.449Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:21.452Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:21.453Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:21.453Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:21.453Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:21.748Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:21.751Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:21.751Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:21.752Z - Time taken for 'total for creating and serializing project graph' 295.6481999978423ms
+[NX Daemon Server] - 2024-03-11T03:42:21.759Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:21.759Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:21.759Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 296. Response time: 11.
+[NX Daemon Server] - 2024-03-11T03:42:21.759Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:21.760Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 9.
+[NX Daemon Server] - 2024-03-11T03:42:21.761Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:21.762Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:21.763Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:21.763Z - Server stopped because: "this process is no longer the current daemon (native)"
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:23.544Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:23.548Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:23.556Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:23.556Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:23.556Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:23.559Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:23.560Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:23.560Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:23.560Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:23.835Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:23.837Z - Time taken for 'total for creating and serializing project graph' 275.67920000106096ms
+[NX Daemon Server] - 2024-03-11T03:42:23.837Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:23.837Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:23.837Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:23.837Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 276. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:23.838Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:23.839Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:23.839Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:23.840Z - Time taken for 'total for creating and serializing project graph' 0.16440000385046005ms
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:23.842Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:23.847Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:23.847Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:23.847Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:23.848Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:24.902Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:24.903Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:24.903Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:24.904Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:24.904Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:24.906Z - Time taken for 'total for creating and serializing project graph' 0.14889999479055405ms
+[NX Daemon Server] - 2024-03-11T03:42:24.906Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:24.906Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:24.910Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:24.910Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:24.910Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:24.911Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:25.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:25.143Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:25.144Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:25.144Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:25.144Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:26.474Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:26.477Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:26.480Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:26.481Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:26.481Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:26.481Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:26.481Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:26.482Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:26.484Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:26.487Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:26.488Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:26.488Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:26.789Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:26.792Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:26.792Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:26.794Z - Time taken for 'total for creating and serializing project graph' 305.49679999798536ms
+[NX Daemon Server] - 2024-03-11T03:42:26.802Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:26.802Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:26.802Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 305. Response time: 13.
+[NX Daemon Server] - 2024-03-11T03:42:26.802Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:26.802Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:42:26.804Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:26.806Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:28.248Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:28.251Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:28.259Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:28.260Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:28.260Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:28.262Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:28.263Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:28.263Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:28.263Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:28.544Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:28.546Z - Time taken for 'total for creating and serializing project graph' 282.34939999878407ms
+[NX Daemon Server] - 2024-03-11T03:42:28.546Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:28.546Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:28.547Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:28.547Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 282. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:42:28.547Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:28.548Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:28.548Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:28.550Z - Time taken for 'total for creating and serializing project graph' 0.16950000077486038ms
+[NX Daemon Server] - 2024-03-11T03:42:28.551Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:28.551Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:28.551Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-11T03:42:28.551Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:28.551Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:28.552Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:28.556Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:28.556Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:28.556Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:28.556Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:28.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:28.664Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:28.664Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:28.664Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:28.664Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:29.966Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:29.969Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:29.973Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:29.974Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:29.974Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:29.974Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:29.974Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:29.975Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:29.977Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:29.978Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:29.978Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:29.978Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:30.254Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:30.256Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:30.257Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:30.258Z - Time taken for 'total for creating and serializing project graph' 276.9358000010252ms
+[NX Daemon Server] - 2024-03-11T03:42:30.264Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:30.264Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:30.264Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 277. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:42:30.264Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:30.264Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 7.
+[NX Daemon Server] - 2024-03-11T03:42:30.266Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:30.267Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:30.267Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:30.268Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:32.620Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:32.624Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:32.625Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:32.625Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:32.626Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:32.626Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-03-11T03:42:32.626Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:32.626Z - Closed a connection. Number of open connections: 2
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:32.629Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:32.634Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:32.634Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:32.634Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:32.931Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:32.934Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:32.934Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:32.935Z - Time taken for 'total for creating and serializing project graph' 302.9323000013828ms
+[NX Daemon Server] - 2024-03-11T03:42:32.935Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:32.936Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 303. Response time: 5.
+[NX Daemon Server] - 2024-03-11T03:42:32.936Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:32.936Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:32.937Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:32.938Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:32.938Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:32.938Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:32.941Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:32.941Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:32.941Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:32.941Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:33.997Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:33.997Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:33.997Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:33.999Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:34.000Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:34.001Z - Time taken for 'total for creating and serializing project graph' 0.16120000183582306ms
+[NX Daemon Server] - 2024-03-11T03:42:34.001Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:34.001Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:34.005Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:34.005Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:34.005Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:34.005Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:36.975Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:36.975Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:36.975Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:36.976Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:36.976Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:38.285Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:38.288Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:38.291Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:38.291Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:38.292Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:38.292Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:38.292Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:38.293Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:38.295Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:38.296Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:38.296Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:38.296Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:38.558Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:38.561Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:38.561Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:38.562Z - Time taken for 'total for creating and serializing project graph' 263.62399999797344ms
+[NX Daemon Server] - 2024-03-11T03:42:38.569Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:38.569Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:38.569Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 263. Response time: 11.
+[NX Daemon Server] - 2024-03-11T03:42:38.569Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:38.569Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-03-11T03:42:38.571Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:38.572Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:38.573Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:39.925Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:39.929Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:39.933Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:39.934Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:39.934Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:39.936Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:39.937Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:39.937Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:39.937Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:40.043Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:40.044Z - Time taken for 'total for creating and serializing project graph' 106.88359999656677ms
+[NX Daemon Server] - 2024-03-11T03:42:40.045Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:40.045Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 107. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:40.050Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:40.050Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:40.050Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:40.050Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:41.107Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:41.107Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:41.108Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:41.109Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:41.109Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:41.110Z - Time taken for 'total for creating and serializing project graph' 0.15230000019073486ms
+[NX Daemon Server] - 2024-03-11T03:42:41.110Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:41.110Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:41.114Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:41.114Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:41.114Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:41.114Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:43.062Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:43.069Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:43.070Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:43.070Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:43.070Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:44.377Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:44.380Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:44.383Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:44.384Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:44.384Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:44.384Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:44.384Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:44.385Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:44.387Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:44.389Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:44.389Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:44.389Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:44.676Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:44.678Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:44.679Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:44.680Z - Time taken for 'total for creating and serializing project graph' 288.5780000016093ms
+[NX Daemon Server] - 2024-03-11T03:42:44.686Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:44.687Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:44.687Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 289. Response time: 11.
+[NX Daemon Server] - 2024-03-11T03:42:44.687Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:44.687Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2024-03-11T03:42:44.689Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:44.690Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:44.690Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:44.690Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:44.690Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:44.691Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:44.691Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:44.691Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:44.691Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:44.691Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:46.026Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:46.029Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:46.030Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:46.030Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:46.031Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:46.032Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:46.033Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:46.033Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:46.033Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:46.133Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:46.134Z - Time taken for 'total for creating and serializing project graph' 100.4214999973774ms
+[NX Daemon Server] - 2024-03-11T03:42:46.134Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:46.134Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 101. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:46.138Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:46.138Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:46.139Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:46.139Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:46.303Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:46.304Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:46.304Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:46.304Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:46.304Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:47.601Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:47.604Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:47.605Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:47.605Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:47.606Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:47.606Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-03-11T03:42:47.606Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:47.606Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:47.608Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:47.613Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:47.613Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:47.613Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:47.920Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:47.922Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:47.922Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:47.924Z - Time taken for 'total for creating and serializing project graph' 311.8708000034094ms
+[NX Daemon Server] - 2024-03-11T03:42:47.931Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:47.931Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:47.931Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 312. Response time: 11.
+[NX Daemon Server] - 2024-03-11T03:42:47.932Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:47.932Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:42:47.934Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:47.936Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:49.347Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:49.350Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:49.354Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:49.355Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:49.355Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:49.357Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:49.358Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:49.358Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:49.358Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:49.621Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:49.622Z - Time taken for 'total for creating and serializing project graph' 264.40519999712706ms
+[NX Daemon Server] - 2024-03-11T03:42:49.623Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:49.623Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 264. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:49.627Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:49.627Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:49.627Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:49.628Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:50.055Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:50.055Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:50.055Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:50.057Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:50.057Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:50.058Z - Time taken for 'total for creating and serializing project graph' 0.2053000032901764ms
+[NX Daemon Server] - 2024-03-11T03:42:50.058Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:50.058Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:50.062Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:50.062Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:50.063Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:50.063Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:50.685Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:50.686Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:50.686Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:50.687Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:50.687Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:50.688Z - Time taken for 'total for creating and serializing project graph' 0.1550000011920929ms
+[NX Daemon Server] - 2024-03-11T03:42:50.689Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:50.689Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:50.693Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:50.693Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:50.693Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:50.693Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:53.500Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:53.500Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:53.501Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:53.502Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:53.502Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:53.503Z - Time taken for 'total for creating and serializing project graph' 0.1356000006198883ms
+[NX Daemon Server] - 2024-03-11T03:42:53.503Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:53.503Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:53.507Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:53.507Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:53.507Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:53.507Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:54.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:54.272Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:54.273Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:54.273Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:54.273Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:55.568Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:55.571Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:55.574Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:55.574Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:55.575Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:55.575Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:55.575Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:55.575Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:55.577Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:55.579Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:55.579Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:55.579Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:55.853Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:55.856Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:55.856Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:55.857Z - Time taken for 'total for creating and serializing project graph' 276.3677000030875ms
+[NX Daemon Server] - 2024-03-11T03:42:55.864Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:55.864Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:55.864Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 276. Response time: 11.
+[NX Daemon Server] - 2024-03-11T03:42:55.864Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:55.864Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-03-11T03:42:55.866Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:55.867Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:55.867Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:55.868Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:42:57.210Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:57.213Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:57.216Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:57.217Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:57.218Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:57.220Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:57.221Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:57.221Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:57.221Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:57.336Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:57.337Z - Time taken for 'total for creating and serializing project graph' 115.487399995327ms
+[NX Daemon Server] - 2024-03-11T03:42:57.337Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:57.337Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 116. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:57.342Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:57.342Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:57.342Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:57.342Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:57.983Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:42:57.984Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:42:57.984Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:57.984Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:57.984Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:42:59.293Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:42:59.297Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:42:59.303Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:59.303Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:59.303Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:59.304Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:59.304Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:42:59.304Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:42:59.306Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:59.307Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:42:59.307Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:42:59.307Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:42:59.414Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:59.417Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:42:59.417Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:42:59.418Z - Time taken for 'total for creating and serializing project graph' 108.72709999978542ms
+[NX Daemon Server] - 2024-03-11T03:42:59.418Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:59.418Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 108. Response time: 4.
+[NX Daemon Server] - 2024-03-11T03:42:59.418Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:42:59.418Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:42:59.420Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:59.420Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:59.420Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:59.421Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:42:59.423Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:59.423Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:42:59.423Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:42:59.423Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:42:59.432Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:42:59.433Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:42:59.433Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:42:59.433Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:43:01.353Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:43:01.356Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:43:01.357Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:01.357Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:43:01.358Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:01.358Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:01.358Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:01.358Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:43:01.360Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:01.365Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:43:01.365Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:43:01.365Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:43:01.656Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:01.658Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:01.658Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:01.660Z - Time taken for 'total for creating and serializing project graph' 295.39000000059605ms
+[NX Daemon Server] - 2024-03-11T03:43:01.660Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:01.660Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 296. Response time: 4.
+[NX Daemon Server] - 2024-03-11T03:43:01.660Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:01.660Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:43:01.662Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:01.662Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:01.662Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:01.663Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:01.665Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:01.666Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:01.666Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:43:01.666Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:02.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:43:02.275Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-03-11T03:43:02.275Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:43:02.275Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:43:02.275Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-03-11T03:43:03.579Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:43:03.584Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:43:03.594Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:03.595Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:03.595Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:03.596Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:43:03.596Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-11T03:43:03.596Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:43:03.598Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:03.599Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:43:03.599Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:43:03.599Z - [REQUEST]: 
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:279:20
+    at new Promise (<anonymous>)
+    at startServer (c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\server.js:277:12)
+    at async c:\PET\LaiTech\lai-tech\node_modules\nx\src\daemon\server\start.js:8:9
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '\\\\.\\pipe\\nx\\C:\\Users\\CODEIN~1\\AppData\\Local\\Temp\\229a5f9a03291dbce4a6\\d.sock',
+  port: -1
+}
+
+Node.js v18.17.1
+[NX Daemon Server] - 2024-03-11T03:43:03.894Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:03.896Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:03.896Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:03.897Z - Time taken for 'total for creating and serializing project graph' 296.02899999916553ms
+[NX Daemon Server] - 2024-03-11T03:43:03.903Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-11T03:43:03.904Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:03.904Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 296. Response time: 10.
+[NX Daemon Server] - 2024-03-11T03:43:03.904Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:03.904Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-03-11T03:43:03.905Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:03.906Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (sources)
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - [WATCHER]: Stopping the watcher for c:\PET\LaiTech\lai-tech (outputs)
+[NX Daemon Server] - 2024-03-11T03:43:03.907Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-11T03:43:05.262Z - Started listening on: \\.\pipe\nx\C:\Users\CODEIN~1\AppData\Local\Temp\229a5f9a03291dbce4a6\d.sock
+[NX Daemon Server] - 2024-03-11T03:43:05.266Z - [WATCHER]: Subscribed to changes within: c:\PET\LaiTech\lai-tech (native)
+[NX Daemon Server] - 2024-03-11T03:43:05.274Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:05.275Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:05.275Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:05.277Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:05.278Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-11T03:43:05.278Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:43:05.279Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-11T03:43:05.391Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:05.392Z - Time taken for 'total for creating and serializing project graph' 113.9083000048995ms
+[NX Daemon Server] - 2024-03-11T03:43:05.393Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-11T03:43:05.393Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:05.393Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 114. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:43:05.398Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:05.398Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:05.398Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:05.398Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:06.351Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:06.351Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:06.351Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:06.353Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:06.353Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:06.354Z - Time taken for 'total for creating and serializing project graph' 0.16830000281333923ms
+[NX Daemon Server] - 2024-03-11T03:43:06.354Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:06.354Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:43:06.358Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:06.358Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:06.358Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:06.358Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:06.460Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:06.460Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:06.460Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:06.462Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:06.462Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:06.463Z - Time taken for 'total for creating and serializing project graph' 0.14919999986886978ms
+[NX Daemon Server] - 2024-03-11T03:43:06.463Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:06.463Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:43:06.468Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:06.468Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:06.468Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:06.468Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:08.906Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:08.906Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-11T03:43:08.906Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:08.908Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:08.908Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:08.910Z - Time taken for 'total for creating and serializing project graph' 0.14590000361204147ms
+[NX Daemon Server] - 2024-03-11T03:43:08.910Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:08.910Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-11T03:43:08.914Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:08.914Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:08.914Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:08.915Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:10.333Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:10.333Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-11T03:43:10.333Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-11T03:43:10.335Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-11T03:43:10.335Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-11T03:43:10.336Z - Time taken for 'total for creating and serializing project graph' 0.13430000096559525ms
+[NX Daemon Server] - 2024-03-11T03:43:10.336Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-11T03:43:10.336Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-11T03:43:10.341Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:10.341Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-11T03:43:10.341Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-11T03:43:10.341Z - Closed a connection. Number of open connections: 0

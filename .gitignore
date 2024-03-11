@@ -43,3 +43,9 @@ Thumbs.db
 
 
 .nx/cache
+.nx/cache/file-map.json
+.nx/cache/lockfile.hash
+.nx/cache/nx_filex.nxt
+.nx/cache/parsed-lock-file.json
+.nx/cache/project-graph.json
+.nx/cache/d/daemon.log

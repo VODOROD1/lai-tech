@@ -10,12 +10,22 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@taiga-ui/cdk": "^3.69.0",
+    "@taiga-ui/core": "^3.69.0",
+    "@taiga-ui/icons": "^3.69.0",
+    "@taiga-ui/kit": "^3.69.0",
+    "@taiga-ui/styles": "^3.69.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0",
     "@angular-devkit/build-angular": "^16.0.0",
+    "@angular-devkit/core": "~16.0.0",
+    "@angular-devkit/schematics": "~16.0.0",
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "^16.0.0",
+    "@nx/angular": "18.0.8",
+    "@nx/workspace": "18.0.8",
+    "@schematics/angular": "~16.0.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
@@ -23,11 +33,13 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "nx": "18.0.8",
     "typescript": "~5.0.2"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [],
     "projectFileMap": {
       "lai-tech": [
         {
@@ -36,11 +48,11 @@
         },
         {
           "file": ".gitignore",
-          "hash": "4689145951703824387"
+          "hash": "13370571180566325279"
         },
         {
           "file": ".vscode/extensions.json",
-          "hash": "11934160580685414355"
+          "hash": "6740797025222968025"
         },
         {
           "file": ".vscode/launch.json",
@@ -55,16 +67,16 @@
           "hash": "5261091012103123648"
         },
         {
-          "file": "angular.json",
-          "hash": "11674858253643015398"
+          "file": "nx.json",
+          "hash": "12668492049104631474"
         },
         {
           "file": "package-lock.json",
-          "hash": "9961206335334067901"
+          "hash": "8688143963496604257"
         },
         {
           "file": "package.json",
-          "hash": "1425481193704331756",
+          "hash": "12334154984422397846",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/common",
@@ -74,12 +86,22 @@
             "npm:@angular/platform-browser",
             "npm:@angular/platform-browser-dynamic",
             "npm:@angular/router",
+            "npm:@taiga-ui/cdk",
+            "npm:@taiga-ui/core",
+            "npm:@taiga-ui/icons",
+            "npm:@taiga-ui/kit",
+            "npm:@taiga-ui/styles",
             "npm:rxjs",
             "npm:tslib",
             "npm:zone.js",
             "npm:@angular-devkit/build-angular",
+            "npm:@angular-devkit/core",
+            "npm:@angular-devkit/schematics",
             "npm:@angular/cli",
             "npm:@angular/compiler-cli",
+            "npm:@nx/angular",
+            "npm:@nx/workspace",
+            "npm:@schematics/angular",
             "npm:@types/jasmine",
             "npm:jasmine-core",
             "npm:karma",
@@ -87,8 +109,13 @@
             "npm:karma-coverage",
             "npm:karma-jasmine",
             "npm:karma-jasmine-html-reporter",
+            "npm:nx",
             "npm:typescript"
           ]
+        },
+        {
+          "file": "project.json",
+          "hash": "18398141218281988282"
         },
         {
           "file": "src/app/app-routing.module.ts",
@@ -100,7 +127,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "15977095600974839702"
+          "hash": "16449237978416010021"
         },
         {
           "file": "src/app/app.component.scss",
@@ -123,7 +150,52 @@
         },
         {
           "file": "src/app/app.module.ts",
-          "hash": "7042628611948641030"
+          "hash": "15724443285023617315",
+          "deps": [
+            "npm:@taiga-ui/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "src/app/core/service/connect-to-github-api.service.spec.ts",
+          "hash": "9575658910685198825",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/core/service/connect-to-github-api.service.ts",
+          "hash": "14244148723230108218",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "src/app/pages/main-page/main-page.component.html",
+          "hash": "333303490544510037"
+        },
+        {
+          "file": "src/app/pages/main-page/main-page.component.scss",
+          "hash": "8679083723414526334"
+        },
+        {
+          "file": "src/app/pages/main-page/main-page.component.spec.ts",
+          "hash": "6236286504707345938",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/pages/main-page/main-page.component.ts",
+          "hash": "18430842313957125752",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
         },
         {
           "file": "src/assets/.gitkeep",
@@ -146,7 +218,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "2917954890128038984"
+          "hash": "5768949960981332535"
         },
         {
           "file": "tsconfig.app.json",
@@ -161,7 +233,6 @@
           "hash": "15575553540147145788"
         }
       ]
-    },
-    "nonProjectFiles": []
+    }
   }
 }
